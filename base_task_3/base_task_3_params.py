@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+
+# 霍夫圆参数
+DP = 1
+MIN_DIST = 20
+PARAM1 = 250              # Canny 梯度
+PARAM2 = 15               # 圆心累加阈值
+MIN_RADIUS = 5
+MAX_RADIUS = 30
+
+# 霍夫圆参数
+DP_2 = 1
+MIN_DIST_2 = 20
+PARAM1_2 = 250              # Canny 梯度
+PARAM2_2 = 15               # 圆心累加阈值
+MIN_RADIUS_2 = 5
+MAX_RADIUS_2 = 15
+
+LOSE_TARGET_TH = 30
+
+BASE_TASK_3_TAKE_OFF_NUM = 100
+BASE_TASK_3_LEAVE_START_POINT_NUM = 30
+BASE_TASK_3_DETECT_CAR_NUM = 5
+BASE_TASK_3_BRAKE_DELAY_NUM = 5
+BASE_TASK_3_BRAKE_NUM = 10
+BASE_TASK_3_STOP_TP_CAR_NUM = 500
+BASE_TASK_3_LAND_NUM = 500
